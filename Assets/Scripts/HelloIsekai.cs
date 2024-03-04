@@ -5,12 +5,10 @@ using UnityEngine;
 
 public class HelloIsekai : MonoBehaviour
 {
-    public GameObject helloText;
     int speed = 10;
     void Start()
     {
-        print("Hello World!");
-        helloText.GetComponent<TextMeshPro>().text = "Hello, Hell!";
+       
     }
     void Update()
     {
